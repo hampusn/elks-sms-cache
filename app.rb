@@ -1,5 +1,9 @@
 require 'sinatra/base'
 require 'sinatra/activerecord'
+require 'dotenv'
+
+# Load configuration file (.env)
+Dotenv.load
 
 Dir.glob("models/*.rb").each { |r| require_relative r }
 Dir.glob("controllers/*.rb").each { |r| require_relative r }
