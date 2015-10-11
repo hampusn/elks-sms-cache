@@ -1,8 +1,7 @@
 46Elks SMS Cache
 ================
 
-Discontinued in favor of MessageCache:  
-https://github.com/hampusn/message-cache  
+**Discontinued in favor of [hampusn/message-cache](https://github.com/hampusn/message-cache)**
 
 A really simple service which will store SMS recived from 46Elks. Built with Sinatra.
 
